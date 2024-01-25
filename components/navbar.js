@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { MdOutlineLightMode } from "react-icons/md";
 import { RiMoonClearLine } from "react-icons/ri";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Navbar() {
   const [mounted, setMounted] = useState(false);
@@ -25,32 +26,49 @@ export default function Navbar() {
   return (
     <div className="w-full">
       <nav className="max-w-[1440px] h-[80px] m-auto flex flex-row gap-10 justify-between sm:px-3">
+        <div className="flex lg:hidden items-center">
+          <Button variant="link">
+            <RxHamburgerMenu fontSize={20} />
+          </Button>
+        </div>
         <div className="logo flex items-center">
           <Link href="#">
             <Image src="/logo.png" alt="Biccas" width={130} height={200} />
           </Link>
         </div>
-        <ul className="flex flex-row gap-10 items-center">
+        <ul className="hidden lg:flex flex-row gap-10 items-center">
           <li>
             <Link href="#">Home</Link>
           </li>
           <li>
-            <Link href="#" className="text-[#A6A6A6] hover:text-black">
+            <Link
+              href="#"
+              className="text-[#A6A6A6] hover:text-black dark:hover:text-white"
+            >
               Product
             </Link>
           </li>
           <li>
-            <Link href="#" className="text-[#A6A6A6] hover:text-black">
+            <Link
+              href="#"
+              className="text-[#A6A6A6] hover:text-black dark:hover:text-white"
+            >
               FAQ
             </Link>
           </li>
           <li>
-            <Link href="#" className="text-[#A6A6A6] hover:text-black">
+            <Link
+              href="#"
+              className="text-[#A6A6A6] hover:text-black dark:hover:text-white"
+            >
               Blog
             </Link>
           </li>
           <li>
-            <Link href="#" className="text-[#A6A6A6] hover:text-black">
+            <Link
+              href="#"
+              className="text-[#A6A6A6] hover:text-black dark:hover:text-white"
+            >
               About Us
             </Link>
           </li>
