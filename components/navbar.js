@@ -8,10 +8,13 @@ import { useTheme } from "next-themes";
 import { MdOutlineLightMode } from "react-icons/md";
 import { RiMoonClearLine } from "react-icons/ri";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { MdClose } from "react-icons/md";
 
 export default function Navbar() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -21,14 +24,22 @@ export default function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
   if (!mounted) return null;
 
   return (
-    <div className="w-full">
-      <nav className="max-w-[1440px] h-[80px] m-auto flex flex-row gap-10 justify-between sm:px-3">
+    <div className="w-full p-4 relative">
+      <nav className="max-w-[1440px] m-auto flex flex-row gap-10 justify-between sm:px-3">
         <div className="flex lg:hidden items-center">
-          <Button variant="link">
-            <RxHamburgerMenu fontSize={20} />
+          <Button variant="link" onClick={toggleMobileMenu}>
+            {mobileMenuOpen === false ? (
+              <RxHamburgerMenu fontSize={20} />
+            ) : (
+              <MdClose fontSize={20} />
+            )}
           </Button>
         </div>
         <div className="logo flex items-center">
@@ -91,6 +102,26 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
+      {/* Mobile menu */}
+      {mobileMenuOpen && (
+        <div className="lg:hidden mt-4 w-full bg-white dark:bg-[#0C0A09] min-h-[92vh] flex flex-col gap-14 items-center justify-center absolute left-0">
+          <Link href="/" className="text-lg">
+            Home
+          </Link>
+          <Link href="/" className="text-lg">
+            Product
+          </Link>
+          <Link href="/" className="text-lg">
+            FAQ
+          </Link>
+          <Link href="/" className="text-lg">
+            Blog
+          </Link>
+          <Link href="/" className="text-lg">
+            About Us
+          </Link>
+        </div>
+      )}
     </div>
   );
 }
