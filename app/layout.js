@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <main>
             <Navbar />
-            <div className="max-w-[1440px] m-auto p-4">{children}</div>
+            {children}
           </main>
         </ThemeProvider>
       </body>
