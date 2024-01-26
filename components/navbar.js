@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full p-4 relative">
-      <nav className="max-w-[1440px] m-auto flex flex-row gap-10 justify-between sm:px-3">
+      <nav className="max-w-[1440px] m-auto flex flex-row gap-10 justify-start lg:justify-between  sm:px-3 ">
         <div className="flex lg:hidden items-center">
           <Button variant="link" onClick={toggleMobileMenu}>
             {mobileMenuOpen === false ? (
@@ -42,14 +42,17 @@ export default function Navbar() {
             )}
           </Button>
         </div>
-        <div className="logo flex items-center" style={{ minWidth: "100px" }}>
+        <div
+          className="logo flex lg:items-center"
+          style={{ minWidth: "160px" }}
+        >
           <Link href="#">
             <Image
-              src="/logo.png"
+              src="/Logo.svg"
               alt="Biccas"
-              width={100}
-              height={100}
-              style={{ width: "auto", height: "auto" }}
+              width={160}
+              height={30}
+              // style={{ width: "auto", height: "auto" }}
               priority
             />
           </Link>
@@ -91,7 +94,7 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-        <ul className="flex flex-row gap-3 items-center">
+        <ul className="hidden lg:flex flex-row gap-3 items-center">
           <li>
             <Button variant="ghost">Login</Button>
           </li>
@@ -111,7 +114,14 @@ export default function Navbar() {
       </nav>
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden mt-4 w-full bg-white dark:bg-[#0C0A09] min-h-[92vh] flex flex-col gap-14 items-center justify-center absolute left-0">
+        <div className="lg:hidden mt-4 z-50 w-full bg-white dark:bg-[#0C0A09] min-h-[92vh] flex flex-col gap-14 items-center justify-center absolute left-0">
+          <Button variant="outline" className="px-2" onClick={toggleDarkMode}>
+            {theme === "dark" ? (
+              <MdOutlineLightMode fontSize={20} />
+            ) : (
+              <RiMoonClearLine fontSize={20} />
+            )}
+          </Button>
           <Link href="/" className="text-lg">
             Home
           </Link>
@@ -127,6 +137,11 @@ export default function Navbar() {
           <Link href="/" className="text-lg">
             About Us
           </Link>
+
+          <div>
+            <Button variant="ghost">Login</Button>
+            <Button>Sign Up</Button>
+          </div>
         </div>
       )}
     </div>
