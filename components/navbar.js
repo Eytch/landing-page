@@ -42,9 +42,16 @@ export default function Navbar() {
             )}
           </Button>
         </div>
-        <div className="logo flex items-center">
+        <div className="logo flex items-center" style={{ minWidth: "100px" }}>
           <Link href="#">
-            <Image src="/logo.png" alt="Biccas" width={130} height={200} />
+            <Image
+              src="/logo.png"
+              alt="Biccas"
+              width={100}
+              height={100}
+              style={{ width: "auto", height: "auto" }}
+              priority
+            />
           </Link>
         </div>
         <ul className="hidden lg:flex flex-row gap-10 items-center">
