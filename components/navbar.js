@@ -114,7 +114,7 @@ export default function Navbar() {
       </nav>
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden mt-4 z-50 w-full bg-white dark:bg-[#0C0A09] min-h-[92vh] flex flex-col gap-14 items-center justify-center absolute left-0">
+        <div className="lg:hidden mt-4 z-50 w-full bg-white dark:bg-[#0C0A09] min-h-[100vh] flex flex-col gap-14 items-center justify-center absolute left-0">
           <Button variant="outline" className="px-2" onClick={toggleDarkMode}>
             {theme === "dark" ? (
               <MdOutlineLightMode fontSize={20} />
