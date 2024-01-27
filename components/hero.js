@@ -4,6 +4,7 @@ import Image from "next/image";
 import split from "/public/split.svg";
 import heroImage from "/public/HeroSVG.svg";
 import { Button } from "./ui/button";
+import { FaCirclePlay } from "react-icons/fa6";
 
 function Hero() {
   return (
@@ -15,13 +16,22 @@ function Hero() {
           </h1>
           <Image src={split} width={450} height={300} alt="hero" />
           <p className="text-center text-md lg:max-w-[400px] lg:text-left">
-            Let's make your work more organize and easily using the Taskio
+            Let&apos;s make your work more organize and easily using the Taskio
             Dashboard with many of the latest featuresin managing work every
             day.
           </p>
           <div className="flex flex-row gap-6">
-            <Button>Try free trial</Button>
-            <Button>view Demo</Button>
+            <Button size="lg" className="rounded-full p-7">
+              Try Free Trial
+            </Button>
+            <Button
+              size="lg"
+              variant="ghost"
+              className="rounded-full p-7 flex gap-2"
+            >
+              <FaCirclePlay fontSize={20} />
+              View Demo
+            </Button>
           </div>
         </div>
         <div className=" ">
