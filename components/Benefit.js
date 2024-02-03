@@ -11,27 +11,47 @@ function Benefit() {
             What Benefit Will You Get
           </h3>
 
-          <ul className="flex flex-col gap-6 px-8">
-            <li className="flex align-middle gap-2">
-              <FaCircleCheck color="#54BD95" fontSize={20} />
+          <ul className="flex flex-col gap-6 lg:px-8">
+            <li className="flex gap-3">
+              <FaCircleCheck
+                color="#54BD95"
+                className="min-w-6"
+                fontSize={20}
+              />
               <p className="leading-5">
                 Free Consulting With Expert Saving Money
               </p>
             </li>
-            <li className="flex align-middle gap-2">
-              <FaCircleCheck color="#54BD95" fontSize={20} />
+            <li className="flex gap-3">
+              <FaCircleCheck
+                color="#54BD95"
+                className="min-w-6"
+                fontSize={20}
+              />
               <p className="leading-5">Online Banking</p>
             </li>
-            <li className="flex align-middle gap-2">
-              <FaCircleCheck color="#54BD95" fontSize={20} />
+            <li className="flex gap-3">
+              <FaCircleCheck
+                color="#54BD95"
+                className="min-w-6"
+                fontSize={20}
+              />
               <p className="leading-5">Investment Report Every Month</p>
             </li>
-            <li className="flex align-middle gap-2">
-              <FaCircleCheck color="#54BD95" fontSize={20} />
+            <li className="flex gap-3">
+              <FaCircleCheck
+                color="#54BD95"
+                className="min-w-6"
+                fontSize={20}
+              />
               <p className="leading-5">Saving Money For The Future</p>
             </li>
-            <li className="flex align-middle gap-2">
-              <FaCircleCheck color="#54BD95" fontSize={20} />
+            <li className="flex gap-3">
+              <FaCircleCheck
+                color="#54BD95"
+                className="min-w-6"
+                fontSize={20}
+              />
               <p className="leading-5">Online Transection</p>
             </li>
           </ul>

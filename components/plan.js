@@ -44,26 +44,46 @@ function Plan() {
                 </div>
                 <div className="bg-[#F9FAFB] px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 min-w-[280px] px-8">
-                    <li className="flex gap-2 min-w-full">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3 min-w-full">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">2 Users</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">2 Files</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Public Share & Comments
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">Chat Support</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         New income apps
                       </p>
@@ -90,28 +110,48 @@ function Plan() {
                 </div>
                 <div className="bg-white px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 min-w-[280px] px-8">
-                    <li className="flex gap-2 min-w-full">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3 min-w-full">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black ">4 Users</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">All Apps</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Unlimited editable exports
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Folders and collaboratins
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         All incoming apps
                       </p>
@@ -137,32 +177,52 @@ function Plan() {
                 </div>
                 <div className="bg-[#F9FAFB] px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 px-8">
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         All the features of pro plan
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Account success Manager
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Single Sign-On (SSO)
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Co-conception program
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Collaboration-Soon
                       </p>
@@ -192,26 +252,46 @@ function Plan() {
                 </div>
                 <div className="bg-[#F9FAFB] px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 min-w-[280px] px-8">
-                    <li className="flex gap-2 min-w-full">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3 min-w-full">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">2 Users</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">2 Files</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Public Share & Comments
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">Chat Support</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         New income apps
                       </p>
@@ -240,28 +320,48 @@ function Plan() {
                 </div>
                 <div className="bg-white px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 min-w-[280px] px-8">
-                    <li className="flex gap-2 min-w-full">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3 min-w-full">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black ">4 Users</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">All Apps</p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Unlimited editable exports
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Folders and collaboratins
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         All incoming apps
                       </p>
@@ -287,32 +387,52 @@ function Plan() {
                 </div>
                 <div className="bg-[#F9FAFB] px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 px-8">
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         All the features of pro plan
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Account success Manager
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Single Sign-On (SSO)
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Co-conception program
                       </p>
                     </li>
-                    <li className="flex gap-2">
-                      <FaCircleCheck color="#54BD95" fontSize={20} />
+                    <li className="flex gap-3">
+                      <FaCircleCheck
+                        color="#54BD95"
+                        className="min-w-6"
+                        fontSize={20}
+                      />
                       <p className="leading-5 dark:text-black">
                         Collaboration-Soon
                       </p>
