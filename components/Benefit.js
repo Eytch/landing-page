@@ -4,10 +4,10 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 function Benefit() {
   return (
-    <div className="max-w-[1440px] m-auto p-8 mt-10">
+    <div className="max-w-[1440px] m-auto p-8 mt-10 benefit--section relative">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
         <div className="flex flex-col gap-8">
-          <h3 className="text-4xl font-semibold text-center lg:text-5xl">
+          <h3 className="text-4xl font-semibold text-center lg:text-left lg:text-5xl">
             What Benefit Will You Get
           </h3>
 
