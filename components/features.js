@@ -7,7 +7,7 @@ function Features() {
     <div className="max-w-[1440px] m-auto p-8">
       <div className=" flex flex-col mb-10 lg:flex-row items-center gap-5 lg:gap-52">
         <h3 className="text-3xl">Our Features you cab get</h3>
-        <p className="text-sm opacity-50 text-center">
+        <p className="text-sm opacity-50 text-center lg:text-left">
           We offer a variety of interesting features that you can help increase
           yor productivity at work and manage your project easily.
         </p>
