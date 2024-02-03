@@ -44,7 +44,7 @@ function Plan() {
                 </div>
                 <div className="bg-[#F9FAFB] px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 min-w-[280px] px-8">
-                    <li className="flex gap-2">
+                    <li className="flex gap-2 min-w-full">
                       <FaCircleCheck color="#54BD95" fontSize={20} />
                       <p className="leading-5 dark:text-black">2 Users</p>
                     </li>
@@ -90,7 +90,7 @@ function Plan() {
                 </div>
                 <div className="bg-white px-5 py-10 flex flex-col gap-5 rounded-lg">
                   <ul className="flex flex-col gap-6 min-w-[280px] px-8">
-                    <li className="flex gap-2">
+                    <li className="flex gap-2 min-w-full">
                       <FaCircleCheck color="#54BD95" fontSize={20} />
                       <p className="leading-5 dark:text-black ">4 Users</p>
                     </li>
