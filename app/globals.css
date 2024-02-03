@@ -97,7 +97,7 @@
 
 .benefit--section::after {
   top: 10rem;
-  right: -10rem;
+  right: 0rem;
 }
 
 .plans-section::after {
@@ -114,5 +114,5 @@
 
 .plans-section::after {
   top: 0rem;
-  right: -20rem;
+  right: 0rem;
 }
