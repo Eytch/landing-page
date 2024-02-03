@@ -4,6 +4,7 @@ import Collabs from "@/components/collabs";
 import Support from "@/components/support";
 import Features from "@/components/features";
 import Benefit from "@/components/Benefit";
+import Plan from "@/components/plan";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Support />
       <Features />
       <Benefit />
+      <Plan />
     </main>
   );
 }
