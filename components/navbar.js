@@ -17,6 +17,14 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  }, [mobileMenuOpen]);
+
+  useEffect(() => {
     setMounted(true);
   }, []);
 
@@ -114,7 +122,7 @@ export default function Navbar() {
       </nav>
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden mt-4 z-50 w-full bg-white dark:bg-[#0C0A09] min-h-[100vh] flex flex-col gap-14 items-center justify-center absolute left-0">
+        <div className="lg:hidden mt-4 z-50 overflow-hidden w-screen absolute h-screen bg-white dark:bg-[#0C0A09] flex flex-col gap-14 items-center pt-5 left-0 overscroll-auto">
           <Button variant="outline" className="px-2" onClick={toggleDarkMode}>
             {theme === "dark" ? (
               <MdOutlineLightMode fontSize={20} />

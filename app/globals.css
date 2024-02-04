@@ -72,10 +72,11 @@
   filter: blur(7rem);
   opacity: 0.4;
 }
-
-.hero-container::after {
-  top: -10rem;
-  left: -20rem;
+@media (min-width: 720px) {
+  .hero-container::after {
+    top: -10rem;
+    left: -20rem;
+  }
 }
 
 .hero-container::before {
