@@ -93,7 +93,7 @@ function Footer() {
                 Get started now! Try our product
               </p>
             </div>
-            <div className="relative min-w-[200px] max-w-[250px] lg:min-w-[400px]">
+            <div className="relative min-w-[200px] lg:max-w-[250px] lg:min-w-[400px]">
               <Input
                 className="w-full border-gray-300 text-white border rounded-full p-8 focus:outline-none sm:text-sm"
                 placeholder="Enter your email here"
