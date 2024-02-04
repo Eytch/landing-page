@@ -60,6 +60,11 @@
   }
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .hero-container::after,
 .hero-container::before {
   content: " ";
