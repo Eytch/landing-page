@@ -19,8 +19,10 @@ export default function Navbar() {
   useEffect(() => {
     if (mobileMenuOpen) {
       document.body.classList.add("overflow-hidden");
+      document.documentElement.classList.add("overflow-hidden");
     } else {
       document.body.classList.remove("overflow-hidden");
+      document.documentElement.classList.remove("overflow-hidden");
     }
   }, [mobileMenuOpen]);
 
