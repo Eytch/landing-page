@@ -21,7 +21,7 @@ function Hero() {
             day.
           </p>
           <div className="flex flex-row gap-1">
-            <Button size="lg" className="rounded-full p-7">
+            <Button size="lg" className="rounded-full p-7 text-white">
               Try Free Trial
             </Button>
             <Button

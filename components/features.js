@@ -11,7 +11,7 @@ function Features() {
           We offer a variety of interesting features that you can help increase
           yor productivity at work and manage your project easily.
         </p>
-        <Button size="lg" className="rounded-full p-7">
+        <Button size="lg" className="rounded-full p-7 text-white">
           Get Started
         </Button>
       </div>
