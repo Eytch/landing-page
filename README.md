@@ -1,4 +1,4 @@
-# Landing Page Template
+# Landing Page 6 Sections
 
 [Live Demo 🚀](https://landing-page-biccas.vercel.app/)
 
