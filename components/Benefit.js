@@ -57,7 +57,7 @@ function Benefit() {
           </ul>
         </div>
         <div>
-          <Image src="/Benifit.svg" width={600} height={600} alt="" />
+          <Image src="/Benifit.png" width={600} height={600} alt="" />
         </div>
       </div>
     </div>

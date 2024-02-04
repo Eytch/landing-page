@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./navbar";
 import Image from "next/image";
 import split from "/public/split.svg";
-import heroImage from "/public/HeroSVG.svg";
+import heroImage from "/public/Hero.png";
 import { Button } from "./ui/button";
 import { FaCirclePlay } from "react-icons/fa6";
 

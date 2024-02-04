@@ -19,7 +19,7 @@ function Features() {
         <div className="flex flex-col gap-2 max-w-xs">
           <Image
             className="self-center lg:self-start"
-            src="/left-image.svg"
+            src="/left-image.png"
             width={300}
             height={300}
             alt=""
@@ -34,7 +34,7 @@ function Features() {
         <div className="flex flex-col gap-2 max-w-xs">
           <Image
             className="self-center lg:self-start"
-            src="/center-image.svg"
+            src="/center-image.png"
             width={300}
             height={300}
             alt=""
@@ -49,7 +49,7 @@ function Features() {
         <div className="flex flex-col gap-2 max-w-xs">
           <Image
             className="self-center lg:self-start"
-            src="/right-image.svg"
+            src="/right-image.png"
             width={300}
             height={300}
             alt=""

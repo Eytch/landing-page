@@ -45,7 +45,7 @@ function Support() {
             <div className="flex gap-3">
               <div className="min-w-12">
                 <Image
-                  src="/publishingIcon.svg"
+                  src="/publishingIcon.png"
                   className="bg-white shadow-md p-2"
                   width={50}
                   height={50}
@@ -67,7 +67,7 @@ function Support() {
             <div className="flex gap-3">
               <div className="min-w-12">
                 <Image
-                  src="/pie.svg"
+                  src="/pie.png"
                   className="bg-white shadow-md p-2"
                   width={50}
                   height={50}
@@ -88,7 +88,7 @@ function Support() {
             <div className="flex gap-3">
               <div className="min-w-12">
                 <Image
-                  src="/engagement.svg"
+                  src="/engagement.png"
                   className="bg-white shadow-md p-2"
                   width={50}
                   height={50}
