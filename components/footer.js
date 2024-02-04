@@ -8,7 +8,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="py-16 px-8 lg:p-24 bg-[#161C28]">
+    <div className="pt-16 px-8 lg:pt-24 pb-10 bg-[#161C28]">
       <div className="max-w-[1440px] m-auto">
         <div className="flex flex-col gap-10 lg:flex-row">
           <div className="basis-2/3 flex flex-col gap-12">
@@ -163,9 +163,15 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div>
-          <div></div>
-          <div></div>
+        <div className="flex flex-col lg:flex-row mt-16 gap-2 lg:gap-0 items-center">
+          <div className="basis-2/3 text-white text-sm ">
+            <p>© 2022 Biccas Inc. Copyright and rights reserved</p>
+          </div>
+          <div className="basis-1/3 text-white text-sm opacity-55 ">
+            <p className="flex gap-3 cursor-pointer">
+              Terms and Condtions <span>•</span> Privacy Policy
+            </p>
+          </div>
         </div>
       </div>
     </div>
